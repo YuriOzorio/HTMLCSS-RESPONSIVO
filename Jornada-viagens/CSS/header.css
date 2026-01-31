@@ -1,4 +1,4 @@
-header {
+.main-header {
   background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
@@ -44,7 +44,7 @@ nav {
 }
 
 .list-links li {
-  margin: 10px 0;
+  margin: 16px;
 }
 
 .list-links li a {
@@ -52,6 +52,10 @@ nav {
   text-decoration: none;
   font-weight: var(--menu-text-weight);
   font-size: 24px;
+}
+
+.list-links .selected {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
@@ -77,26 +81,20 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
+  .main-header {
     padding: 38px 120px;
   }
   .logo {
     width: 260px;
     height: 64px;
   }
-  .img-mobile {
-    display: none;
-  }
   .img-desktop {
     display: block;
   }
+  .img-mobile {
+    display: none;
+  }
   .navigation-menu a:hover {
     color: var(--primary-color);
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  header {
-    padding: 38px 160px;
   }
 }
