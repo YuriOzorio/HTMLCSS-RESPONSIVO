@@ -1,76 +1,93 @@
-.payments .image-content {
+.payments .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
-  margin-top: 24px;
   height: 460px;
+  margin-top: 24px;
   width: 100%;
 }
 
-.payments .content-container {
-  display: flex;
-}
-
-.payments .content-container .image-content .image-bag {
-  background: url(../img/Malas.png) no-repeat;
+.payments .content-container .image-gallery .image.first {
+  background: url(../img/img-bags-payments-mobile.png) no-repeat;
   background-size: cover;
 }
 
-.payments .content-container .image-content .image-passport {
-  background: url(../img/passaporte.png) no-repeat;
+.payments .content-container .image-gallery .image.second {
+  background: url(../img/img-passaport-payments-mobile.png) no-repeat;
   background-size: cover;
 }
 
-.payments .content-container .image-content .image-person {
-  background: url(../img/Pessoas.png) no-repeat;
+.payments .content-container .image-gallery .image.thirdy {
+  background: url(../img/img-people-payments-mobile.png) no-repeat;
   background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.colspan-2 {
   grid-column: span 2;
 }
 
+/*Pacotes de Viagens*/
+
+.travel-packages.payments .content-container .image-gallery .image.first {
+  background: url(../img/page-pacotes/payments-img1-mobile.png) no-repeat;
+  background-size: cover;
+}
+.travel-packages.payments
+  .content-container
+  .image-gallery
+  .image.image.second {
+  background: url(../img/page-pacotes/payments-img2-mobile.png) no-repeat;
+  background-size: cover;
+}
+.travel-packages.payments .content-container .image-gallery .image.thirdy {
+  background: url(../img/page-pacotes/payments-img3-mobile.png) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
-  .payments .content-container .image-content .image-bag {
-    background: url(../img/malas-tablet.jpg) no-repeat;
+  .payments .content-container .image-gallery .image.first {
+    background: url(../img/img-bags-payments-tablet.png) no-repeat;
     background-size: cover;
   }
 
-  .payments .content-container .image-content .image-passport {
-    background: url(../img/passaporte-tablet.jpg) no-repeat;
+  .payments .content-container .image-gallery .image.second {
+    background: url(../img/img-passaport-payments-tablet.png) no-repeat;
     background-size: cover;
   }
 
-  .payments .content-container .image-content .image-person {
-    background: url(../img/pessoas-tablet.jpg) no-repeat;
+  .payments .content-container .image-gallery .image.thirdy {
+    background: url(../img/img-people-payments-tablet.png) no-repeat;
     background-size: cover;
-    grid-column: span 2;
+  }
+  /*Pacotes de Viagens*/
+  .travel-packages.payments .content-container .image-gallery .image.first {
+    background: url(../img/page-pacotes/payments-img1-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .travel-packages.payments
+    .content-container
+    .image-gallery
+    .image.image.second {
+    background: url(../img/page-pacotes/payments-img2-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .travel-packages.payments .content-container .image-gallery .image.thirdy {
+    background: url(../img/page-pacotes/payments-img3-tablet.png) no-repeat;
+    background-size: cover;
   }
 }
-
 @media screen and (min-width: 1440px) {
-  .payments .content-container .image-content .image-bag {
-    background: url(../img/malas-desktop.jpg) no-repeat;
-    background-size: cover;
+  section {
+    width: 1200px;
   }
-
-  .payments .content-container .image-content .image-passport {
-    background: url(../img/passaporte-desktop.jpg) no-repeat;
-    background-size: cover;
-  }
-
-  .payments .content-container .image-content .image-person {
-    background: url(../img/pessoas-desktop.jpg) no-repeat;
-    background-size: cover;
-    grid-column: span 2;
-  }
-}
-
-@media screen and (min-width: 440px) {
-  .payment .content-container{
+  .payments .content-container {
+    display: flex;
     justify-content: space-between;
   }
-  .payments .text-content {
+  .payments .content-container .text-content {
     width: 360px;
   }
-  .payments .image-content {
+  .payments .content-container .image-gallery {
     width: 790px;
   }
 }
