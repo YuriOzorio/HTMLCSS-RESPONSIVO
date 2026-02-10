@@ -1,0 +1,141 @@
+/* About Tokyo*/
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Texto container*/
+.blog-text {
+  width: 100%;
+}
+
+/* Imagem container*/
+.blog-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  display: block;
+}
+
+.image-first {
+  margin-top: 32px;
+  height: 310px;
+  background: url(../img/img-page-blog//acomodacao-mobile.png) no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+/*Posts*/
+.posts .destination-itens {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.posts .item {
+  display: flex;
+  flex-direction: column;
+}
+
+.posts .img-item {
+  width: 100%;
+  height: 280px;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+}
+
+.posts .content-title {
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.posts .content-text {
+  margin-top: 12px;
+}
+
+.posts .button {
+  margin-top: 16px;
+  align-self: flex-start;
+}
+
+.posts .destination-itens .item.osaka .img-item {
+  background: url(../img/img-page-blog/osaka-post-mobile.png);
+  background-size: cover;
+}
+
+.posts .destination-itens .item.hiroshima .img-item {
+  background: url(../img/img-page-blog/hiroshima-post-mobile.png);
+  background-size: cover;
+}
+
+.posts .destination-itens .item.kyoto .img-item {
+  background: url(../img/img-page-blog/kyoko-post-mobile.png);
+  background-size: cover;
+}
+.posts .destination-itens p {
+  margin-top: 16px;
+}
+.posts .destination-itens a {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+/*Footer*/
+.blog.main-footer {
+  margin-top: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  /*Acomodação*/
+  .container {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .blog-text {
+    flex: 1.2;
+  }
+
+  .blog-image {
+    flex: 0.8;
+  }
+
+  .image-first {
+    background: url(../img/img-page-blog//acomodacao-descktop.png) no-repeat;
+    background-size: cover;
+  }
+  /*Posts*/
+
+  .posts .destination-itens .item.osaka .img-item {
+    background: url(../img/img-page-blog/osaka-post-tablet.png);
+    background-size: cover;
+  }
+
+  .posts .destination-itens .item.hiroshima .img-item {
+    background: url(../img/img-page-blog/hiroshima-post-tablet.png);
+    background-size: cover;
+  }
+
+  .posts .destination-itens .item.kyoto .img-item {
+    background: url(../img/img-page-blog/kyoko-post-tablet.png);
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .posts .destination-itens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .posts .img-item {
+    height: 200px;
+  }
+
+  .posts .content-title {
+    font-size: 22px;
+  }
+}
