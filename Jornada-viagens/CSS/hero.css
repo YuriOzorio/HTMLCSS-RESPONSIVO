@@ -8,6 +8,7 @@
   background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
+
 .bottom-hero .hero-img {
   margin-top: 88px;
   background: url(../img/rodape-mobile.png) no-repeat;
@@ -213,7 +214,7 @@
   }
   .bottom-hero .hero-img {
     height: 620px;
-    background: url(../img/rodape-descktop.png) no-repeat;
+    background: url(../img/rodape-desktop.png) no-repeat;
     background-size: cover;
   }
   .hero h2 {
@@ -227,7 +228,7 @@
   }
   .travel-packages .hero-img {
     height: 620px;
-    background: url(../img/page-pacotes/hero-pacotes-descktop.png) no-repeat;
+    background: url(../img/page-pacotes/hero-pacotes-desktop.png) no-repeat;
     background-size: cover;
   }
   .travel-packages .hero-content p {
@@ -235,7 +236,7 @@
   }
   .travel-packages.bottom-hero .hero-img {
     margin-top: 88px;
-    background: url(../img/page-pacotes/bottom-hero-packages-descktop.png)
+    background: url(../img/page-pacotes/bottom-hero-packages-desktop.png)
       no-repeat;
     background-size: cover;
   }
@@ -246,7 +247,7 @@
   }
   .blog-jornada .hero-img {
     height: 620px;
-    background: url(../img/img-page-blog/hero-blog-descktop.png) no-repeat;
+    background: url(../img/img-page-blog/hero-blog-desktop.png) no-repeat;
     background-size: cover;
   }
   .blog-jornada .hero-content p {
@@ -254,7 +255,7 @@
   }
   .blog-jornada.bottom-hero .hero-img {
     margin-top: 88px;
-    background: url(../img/page-pacotes/bottom-hero-packages-descktop.png)
+    background: url(../img/page-pacotes/bottom-hero-packages-desktop.png)
       no-repeat;
     background-size: cover;
   }
@@ -265,7 +266,7 @@
   }
   .contact .hero-img {
     height: 620px;
-    background: url(../img/contato-img/hero-contact-descktop.png) no-repeat;
+    background: url(../img/contato-img/hero-contact-desktop.png) no-repeat;
     background-size: cover;
   }
   .contact .hero-content p {
@@ -273,7 +274,7 @@
   }
   .contact.bottom-hero .hero-img {
     margin-top: 88px;
-    background: url(../img/contato-img/botton-descktop.png) no-repeat;
+    background: url(../img/contato-img/botton-desktop.png) no-repeat;
     background-size: cover;
   }
 }
