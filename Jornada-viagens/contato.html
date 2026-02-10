@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="favicon.png" type="xml/png" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Entre em contato!</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <a class="logo" href="index.html" title="Voltar para a página inicial">
+        <img
+          class="img-mobile"
+          src="img/bussola-branca.png"
+          alt="Bussola do logo Jornada Viagens na cor branco"
+        />
+        <img
+          class="img-desktop"
+          src="img/bussola-texto-jornada-branco.png"
+          alt="Logo do logo Jornada Viagens na cor branco"
+        />
+      </a>
+      <div class="navigation-menu">
+        <label for="menu">
+          <img src="img/menu.png" alt="menu" />
+        </label>
+        <input type="checkbox" id="menu" hidden />
+        <nav>
+          <ul class="list-links">
+            <li>
+              <a href="blog.html" target="_blank" title="Acessar Blog">Blog</a>
+            </li>
+            <li>
+              <a
+                href="pacotes.html"
+                target="_blank"
+                title="Acessar Pacotes de Viagem"
+                >Pacotes de Viagem</a
+              >
+            </li>
+            <li>
+              <a
+                class="selected"
+                href="contato.html"
+                target="_blank"
+                title="Acessar Contato"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="contact hero">
+      <div class="hero-img">
+        <div class="hero-content">
+          <h1>Entre em contato!</h1>
+          <hr />
+          <p>
+            Dúvidas, sugestões, problemas para resolver? Temos uma equipe de
+            plantão para ajudar você!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="formulario">
+      <div class="section-title">
+        <h2>Preencha o formulário:</h2>
+        <hr />
+      </div>
+      <div>
+        <p>
+          Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+          problemas, trazer dicas e orientações objetivas para tornar sua
+          experiência o mais prazerosa e tranquila possível. Preencha seus dados
+          que vamos retornar seu contato conforme a urgência do seu chamado.
+          Pode confiar!
+        </p>
+      </div>
+    </section>
+    <section>
+      <form action="envio.html" method="get">
+        <fieldset>
+          <label for="name">Nome: </label>
+          <input id="name" type="text" name="userName" required />
+          <br />
+          <label for="phoneNumber">Telefone: </label>
+          <input
+            id="phoneNumber"
+            type="tel"
+            name="userPhoneNumber"
+            placeholder="DDD + número"
+            aria-describedby="phoneHelp"
+          />
+          <small id="phoneHelp"
+            >Preencha com 11 dígitos no formato: DDD + número</small
+          >
+          <br />
+          <label for="email">Email: </label>
+          <input id="email" type="email" name="userEmail" required />
+          <br />
+          <label for="comment">Assunto:</label>
+          <textarea
+            name="userComment"
+            id="comment"
+            placeholder="Digite aqui..."
+          required ></textarea>
+          <a
+            href="enviar.html"
+            target="_blank"
+            class="contact button"
+            title="Botão para enviar formulário para entrar em contato"
+            >Enviar</a
+          >
+        </fieldset>
+      </form>
+    </section>
+        <section class="contact bottom-hero">
+      <div class="hero-img"></div>
+    </section>
+    <footer class="main-footer">
+      <div class="footer-content">
+        <img src="img/logo-footer.png" alt="Logo do jornada viagens" />
+      </div>
+      <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
+
+      <div class="footer-social">
+        <p>Acesse nossas redes:</p>
+        <a href="#" target="_blank" title="Entre em contato via Whatsapp">
+          <img src="img/whatsapp.png" alt="Logo Whatsapp" />
+        </a>
+        <a href="#" target="_blank" title="Acesse nosso Instagram">
+          <img src="img/instagram.png" alt="Logo Instagram" />
+        </a>
+        <a href="#" target="_blank" title="Acesse nosso Twiter">
+          <img src="img/twiter.png" alt="Logo Twiter" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
